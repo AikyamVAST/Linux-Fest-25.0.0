@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Encoded flag (base64)
+encoded="ZmxhZ3tub3RfZWFzeV90b19zZWV9"
+
+# Decode and print
+echo "$encoded" | base64 -d
