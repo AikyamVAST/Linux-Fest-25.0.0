@@ -1,0 +1,17 @@
+**"A Wild Goose in the Wrong Directory"**
+
+You searched the depths of the file, turned it inside out, base64-decoded it, hex-dumped it, and even ran `strings` like a digital exorcist. You stared into its binary soul and found... nothing but the echo of your own confusion.
+
+It’s not in the content.
+It’s not in the filename.
+It’s not in the metadata, the permissions, or the timestamp from 1970.
+
+You’re barking up the wrong inode, my friend.
+
+The flag isn’t hiding in the bytes — it’s laughing at you from above. Or rather... from ownership. Yes, that mysterious land of `chown` and `ls -l`, where names hold secrets and files wear badges.
+
+Stop reading the file.
+Start reading who owns it.
+
+
+
